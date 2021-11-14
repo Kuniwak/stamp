@@ -13,33 +13,16 @@ header {
 
 .cheetsheet {
 	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
 	width: 100%;
 }
 
-@media screen and (max-width: 400px) {
-	.cheetsheet {
-		grid-template-columns: 400px;
-	}
-}
-
-@media screen and (min-width: 400px) and (max-width: 800px) {
-	.cheetsheet {
-		grid-template-columns: 400px 400px;
-	}
-}
-
-@media screen and (min-width: 800px) {
-	.cheetsheet {
-		grid-template-columns: 400px 400px 400px;
-	}
-}
-
 .stamp {
+	margin: 0;
 	text-align: center;
 }
 
 .stamp img {
-	margin-right: 60px;
 	width: 340px;
 	height: 240px;
 }
