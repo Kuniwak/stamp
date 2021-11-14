@@ -7,13 +7,9 @@ h1 {
 	text-align: center;
 }
 
-header {
-	padding-bottom: 50px;
-}
-
 .cheetsheet {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
 	width: 100%;
 }
 
@@ -23,6 +19,6 @@ header {
 }
 
 .stamp img {
-	width: 340px;
-	height: 240px;
+	width: 170px;
+	height: 120px;
 }
