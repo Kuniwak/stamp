@@ -1,0 +1,45 @@
+body {
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+header {
+	padding-bottom: 50px;
+}
+
+.cheetsheet {
+	display: grid;
+	width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+	.cheetsheet {
+		grid-template-columns: 400px;
+	}
+}
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+	.cheetsheet {
+		grid-template-columns: 400px 400px;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.cheetsheet {
+		grid-template-columns: 400px 400px 400px;
+	}
+}
+
+.stamp {
+	text-align: center;
+}
+
+.stamp img {
+	margin-right: 60px;
+	width: 340px;
+	height: 240px;
+}
