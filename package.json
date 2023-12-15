@@ -1,0 +1,25 @@
+{
+  "name": "kuniwak-stamp",
+  "version": "1.0.0",
+  "description": "My stamps",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "http-server -c-1 ./public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuniwak/stamp.git"
+  },
+  "author": "Kuniwak",
+  "license": "SEE LICENSE",
+  "bugs": {
+    "url": "https://github.com/Kuniwak/stamp/issues"
+  },
+  "homepage": "https://github.com/Kuniwak/stamp#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
