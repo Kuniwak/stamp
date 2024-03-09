@@ -3,7 +3,7 @@ Kuniwak's stamp
 
 This is a stamp image collection for Kuniwak.
 
-![](https://kuniwak.github.io/stamp/thumbnails.png)
+![](./docs/thumbnails.png)
 
 
 License
